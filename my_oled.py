@@ -17,7 +17,7 @@ def print_text(msg,x=0,y=0):
     # clear the screen
     oled.fill(0)
     #place text on the screen
-    oled.text(msg, x,y)
+    oled.text("something else", 0,0)
     # show the screen
     oled.show()  
 
